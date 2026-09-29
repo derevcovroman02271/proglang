@@ -1,0 +1,15 @@
+#include <iostream>
+#include <typeinfo>
+using namespace std;
+
+int main() {
+    bool x = true, y = false;
+
+    auto a = x & y;
+    cout << typeid(a).name() << endl;
+
+    auto b = x && y;
+    cout << typeid(b).name() << endl;
+
+    return 0;
+}
