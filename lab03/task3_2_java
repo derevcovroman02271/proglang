@@ -1,0 +1,9 @@
+public class task3_2 {
+    public static void main(String[] args) {
+        boolean b = true;
+        int i = b;
+        int x = 5;
+        boolean b2 = x;
+        System.out.println(i + " " + b2);
+    }
+}
