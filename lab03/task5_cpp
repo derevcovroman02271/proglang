@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+typedef unsigned long long ull;
+
+int main() {
+    ull a = 100, b = 200;
+    cout << a + b << endl;
+
+    auto x = 5;
+    auto y = 3.14;
+    cout << x << " " << y << endl;
+
+    decltype(x) z = 10;
+    cout << z << endl;
+
+    double d = 2.9;
+    int i = static_cast<int>(d);
+    cout << i << endl;
+
+    cout << sizeof(int) << endl;
+    cout << sizeof(a) << endl;
+
+    return 0;
+}
