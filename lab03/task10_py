@@ -1,0 +1,25 @@
+s1 = ""
+s2 = "hello"
+s3 = "0"
+
+if s1:
+    print("s1 true")
+else:
+    print("s1 false")
+
+if s2:
+    print("s2 true")
+else:
+    print("s2 false")
+
+if s3:
+    print("s3 true")
+else:
+    print("s3 false")
+
+print(bool(s1))
+print(bool(s2))
+print(bool(s3))
+
+print(s1 or "default")
+print(s2 or "default")
