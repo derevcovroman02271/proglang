@@ -1,0 +1,7 @@
+public class task3_1 {
+    public static void main(String[] args) {
+        double d = 3.14;
+        int i = d;
+        System.out.println(i);
+    }
+}
