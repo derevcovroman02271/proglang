@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    bool b = true;
+    int i = b;
+    int x = 5;
+    bool b2 = x;
+    cout << i << " " << b2 << endl;
+    return 0;
+}
