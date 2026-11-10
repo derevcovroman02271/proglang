@@ -1,7 +1,7 @@
 # Языки программирования
 ## Лабораторная работа 8
 
-### Задание 1 **(2)**
+### Задание 1 **(2)** СДЕЛАЛ
 *Рассмотрим программу на языке* **Python**.
 ```
 x = [int(t) for t in input().split()]
@@ -16,7 +16,7 @@ print(i)
 ```
 x = [int(t) for t in input().split()]
 i = 0
-while ...:
+while i < len(x) and x[i] >= i and x[i] <= 2*i::
    i += 1
 print(i)
 ```
